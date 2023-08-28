@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 62.5%;
+}
+
+.main {
+    background-color: aqua;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.main .child {
+
+    width: 360px;
+    min-height: 100px;
+    padding: 32px 20px;
+    text-align: center;
+    /* background: #2419c0; */
+    background: #fff;
+    border-radius: 2px;
+    margin: 24px;
+    align-self: center;
+    box-shadow: 0 2px 5px 0 rgba(51, 62, 73, 0.1);
+
+}
+
+.main .child-headding {
+    font-size: 2rem;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.main .child-introduce {
+    text-align: center;
+    color: rgb(24, 12, 12);
+    font-size: 1.5rem;
+    font-weight: lighter;
+    line-height: 2.4rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.child-way {}
+
+.child-group {
+    display: flex;
+    margin-bottom: 16px;
+    flex-direction: column;
+    color: black;
+    border-color: red;
+}
+
+.child-group-email:hover {
+    border-color: rgb(64, 215, 223);
+}
+
+.child-group-lable {
+    font-weight: 700;
+    font-size: 1.5rem;
+
+}
+
+.child-group-email {
+    border: 1px solid #b3b3b3;
+    border-radius: 2px;
+
+}
+
+.child-group-message {}
+
+.child-group {}
